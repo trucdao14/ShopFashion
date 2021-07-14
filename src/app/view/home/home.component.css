@@ -1,0 +1,33 @@
+.timeline {
+    background-image: url(https://www.mwcstore.net/themes/images/line-1.png);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.post-timeline {
+    width: 80%;
+    margin: 15px auto;
+}
+
+li.event {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 0 2px 0 0;
+}
+
+.img-reponsive {
+    width: 100%;
+}
+
+.news-box {
+    margin: 15px;
+}
+
+li.event:nth-child(odd) {}
+
+li.event:nth-child(even) {
+    margin-right: 0;
+}
+
+
+/*  */

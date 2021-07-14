@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+ul,
+ol {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,274 @@
+section.top-info {
+    background-color: #0a0a0a;
+    height: 35px;
+}
+
+ul.top-menu-left li a {
+    color: white;
+}
+
+ul.top-menu-left li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+ul.top-menu-left span {
+    color: white;
+}
+
+ul.top-menu-left {
+    padding: 7px;
+}
+
+ul.top-menu-right {
+    text-align: right;
+    position: relative;
+}
+
+ul.top-menu-right li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px 0px;
+}
+
+ul.top-menu-right li a {
+    color: white;
+    border-right: 1px solid;
+    padding: 0px 8px;
+}
+
+ul.submenu-right {
+    position: absolute;
+    right: 0;
+    background: #2E2E2E;
+    display: none;
+    top: 35px;
+    z-index: 4;
+}
+
+ul.submenu-right li {
+    display: block;
+}
+
+ul.submenu-right li {
+    margin: 2px;
+    border-bottom: 1px solid white;
+}
+
+ul.submenu-right li a {
+    border-right: none;
+}
+
+.block {
+    display: block!important;
+}
+
+ul.submenu-right.block>li>a {
+    padding: 20px;
+    margin: 0px;
+    color: antiquewhite;
+}
+
+div#logo {
+    padding: 10px 0px;
+}
+
+.primary-menu {
+    float: left;
+    padding: 5px 20px;
+}
+
+ul.category {
+    float: left;
+    padding: 8px 20px;
+    position: relative;
+}
+
+ul.category>li {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+
+ul.category>li>a {
+    color: black;
+    float: left;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+}
+
+ul.category li a img {
+    margin: 0px auto;
+}
+
+.cart {
+    /* float: left; */
+    display: flex;
+}
+
+span.icon img {
+    display: block;
+    width: 45px;
+}
+
+.search {
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+button.btn-search {
+    position: absolute;
+    right: 11px;
+    top: 2px;
+}
+
+input#search-header {
+    border-radius: 20px;
+    border-color: #999;
+    width: 570px;
+}
+
+.form,
+.hotline {
+    float: left;
+}
+
+.hotline {
+    padding: 0 10px;
+}
+
+#shop {
+    padding: 10px;
+}
+
+section.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 3;
+}
+
+ul.submenu-item-ao {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 90px;
+    z-index: 5;
+    border: 1px solid #dff0d8;
+}
+
+ul.submenu-item-quan {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 90px;
+    z-index: 5;
+    border: 1px solid #dff0d8;
+}
+
+ul.submenu-item-tui {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 90px;
+    z-index: 5;
+    border: 1px solid #dff0d8;
+}
+
+ul.submenu-item-giay {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 90px;
+    z-index: 5;
+    border: 1px solid #dff0d8;
+}
+
+ul.submenu-item-mu {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 90px;
+    z-index: 5;
+    border: 1px solid #dff0d8;
+}
+
+ul.submenu-item-ao li {
+    padding: 7px 30px;
+}
+
+ul.submenu-item-ao li a {
+    color: black;
+}
+
+ul.submenu-item-quan li {
+    padding: 7px 30px;
+}
+
+ul.submenu-item-quan li a {
+    color: black;
+}
+
+ul.submenu-item-tui li {
+    padding: 7px 30px;
+}
+
+ul.submenu-item-tui li a {
+    color: black;
+}
+
+ul.submenu-item-giay li {
+    padding: 7px 30px;
+}
+
+ul.submenu-item-giay li a {
+    color: black;
+}
+
+ul.submenu-item-mu li {
+    padding: 7px 30px;
+}
+
+ul.submenu-item-mu li a {
+    color: black;
+}
+
+li#item-ao:hover ul.submenu-item-ao {
+    display: block !important;
+}
+
+li#item-quan:hover ul.submenu-item-quan {
+    display: block !important;
+}
+
+li#item-tui:hover ul.submenu-item-tui {
+    display: block !important;
+}
+
+li#item-giay:hover ul.submenu-item-giay {
+    display: block !important;
+}
+
+li#item-mu:hover ul.submenu-item-mu {
+    display: block !important;
+}
+
+ul.timeline-left li img {
+    width: 515px;
+}
+
+ul.timeline-right li img {
+    width: 515px;
+}
+
+ul.timeline-left li {
+    border: 1px solid;
+    margin: 25px 0px;
+}
+
+ul.timeline-right li {
+    border: 1px solid;
+    margin: 25px 0px;
+}
